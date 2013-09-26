@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mime-types (1.25)
+    multi_json (1.8.0)
+    rack (1.5.2)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    stripe (1.8.7)
+      multi_json (>= 1.0.4, < 2)
+      rest-client (~> 1.4)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra (= 1.1.0)
+  stripe
